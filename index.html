@@ -24,6 +24,9 @@
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
 
+    <!-- Custom scripts -->
+    <script src="js/date.js"></script>
+
   </head>
 
   <body id="page-top">
@@ -58,15 +61,20 @@
       <div class="container my-auto">
         <div class="row">
           <div class="col-lg-10 mx-auto">
-            <h1 class="text-uppercase">
-              <strong>WELCOME TO CODING GROUND</strong>
+            <h1 id = "greetings" class="text-uppercase">
+              <strong>
+                <script>
+                  getGreetings();
+                </script>
+              </strong>
+              <!-- <strong>WELCOME TO CODING GROUND</strong> -->
             </h1>
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
             <p class="text-faded mb-5">“Quality is much better than quantity. One home run is much better than two doubles.” - Steve Jobs</p>
             <p class="text-faded mb-5">“If Google teaches you anything, it’s that small ideas can be big.” - Ben Silbermann</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">DIVE IN</a>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">KNOW MORE</a>
           </div>
         </div>
       </div>
@@ -96,21 +104,21 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-6 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-edit text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Xcode</h3>
               <p class="text-muted mb-0">Xcode is an integrated development environment for macOS developed by Apple for developing software for macOS, iOS, watchOS and tvOS.</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-6 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-code text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Swift</h3>
               <p class="text-muted mb-0">Swift is a general purpose, programming language developed by Apple for iOS, macOS, watchOS, tvOS and Linux.</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 text-center">
+          <!-- <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-terminal text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Node.js</h3>
@@ -123,12 +131,18 @@
               <h3 class="mb-3">SQL</h3>
               <p class="text-muted mb-0">SQL is a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system.</p>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
 
     <section class="p-0" id="portfolio">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="section-heading">Recent Projects</h2>
+          <hr class="my-4">
+        </div>
+      </div>
       <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
           <div class="col-lg-4 col-sm-6">
@@ -225,12 +239,12 @@
       </div>
     </section>
 
-    <section class="bg-dark text-white">
+    <!-- <section class="bg-dark text-white">
       <div class="container text-center">
         <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
         <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
       </div>
-    </section>
+    </section> -->
 
     <section id="contact">
       <div class="container">
