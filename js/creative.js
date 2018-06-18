@@ -72,4 +72,12 @@
     }
   });
 
+  // $(".js-scroll-trigger").on("click" ,function(){
+  //   setTimeout(function () {
+  //     var scrolled = document.getElementById("page-top").scrollHeight + 50;
+  //     //document.getElementById("page-top").scrollHeight = scrolled;
+  //     window.scrollTo(0, scrolled);
+  //   }, 1000);
+
+  // });
 })(jQuery); // End of use strict
